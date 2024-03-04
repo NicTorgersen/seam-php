@@ -101,7 +101,7 @@ class DeviceProperties
         public string $name,
         public DeviceModel $model,
         public bool | null $has_direct_power,
-        public int | null $battery_level,
+        public float | null $battery_level,
         public DeviceBattery | null $battery,
         public string | null $manufacturer,
         public string | null $image_url,
